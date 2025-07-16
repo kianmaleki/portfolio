@@ -1,0 +1,34 @@
+{
+  "navbarLinks": [
+    {
+      "id": 1,
+      "title": "خانه",
+      "path": "/"
+    },
+    {
+      "id": 2,
+      "title": "درباره من",
+      "path": "/about"
+    },
+    {
+      "id": 3,
+      "title": "مهارت‌ها",
+      "path": "/skills"
+    },
+    {
+      "id": 4,
+      "title": "نمونه‌کارها",
+      "path": "/projects"
+    },
+    {
+      "id": 5,
+      "title": "وبلاگ",
+      "path": "/blog"
+    },
+    {
+      "id": 6,
+      "title": "تماس با من",
+      "path": "/contact"
+    }
+  ]
+}
