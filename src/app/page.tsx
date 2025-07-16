@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Line, WhatCanIDoCard } from "@/components/";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
             علاقه و تخصص من بیشتر برنامه نویسی هست و سعی می‌کنم حداقل توی تخصص
             خودم به روز باشم.
           </p>
-          <Button className="mt-4">اطلاعات بیشتر درمورد من</Button>
+          <Button className="mt-4"><Link href="/about">اطلاعات بیشتر درمورد من</Link></Button>
         </div>
         <div className="relative md:w-1/2 w-full h-64 md:h-[400px] flex-shrink-0 rounded-lg overflow-hidden">
           <Image

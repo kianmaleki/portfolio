@@ -14,17 +14,17 @@ export default function WhatCanIDoCard({
   cardDescription,
 }: WhatCanIDoCardProps) {
   return (
-    <Card className="bg-white rounded-2xl border border-gray-200">
-      <CardHeader className="flex justify-center items-center p-8">
+    <Card>
+      <CardHeader className="flex justify-center items-center">
         <Image
           src={cardImage}
           alt={cardTitle}
-          width={200}
-          height={200}
-          className="object-contain drop-shadow-lg"
+          width={300}
+          height={300}
+          className="drop-shadow-lg"
         />
       </CardHeader>
-      <CardContent className="px-8 pb-10 flex flex-col items-center text-center space-y-4">
+      <CardContent className="flex flex-col items-center text-center">
         <h3 className="text-2xl font-bold text-gray-900 mb-2">{cardTitle}</h3>
         <p className="text-gray-700 text-lg leading-loose">{cardDescription}</p>
       </CardContent>
