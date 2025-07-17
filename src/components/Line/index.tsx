@@ -3,13 +3,13 @@ import React from "react";
 
 export default function Line() {
   return (
-    <div className="w-full mx-auto flex justify-center mt-8">
+    <div className="w-full mx-auto flex justify-center my-10">
       <Image
-        src="/images/line.svg"
+        src="/images/Arrow_line.svg"
         alt="line"
-        width={20}
+        width={10}
         height={1}
-        className="object-contain rotate-180"
+        className="object-contain "
       />
     </div>
   );
